@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>算数操作符</title>
+    <style>
+        .bth {
+            width: 140px;
+            height: 30px;
+            line-height: 30px;
+            background: #00f;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="弹出" onclick="alert('我是按钮')">
+<div id="=bth" class="bth" onmouseover="mouseoverFn(this,'#f00')"
+     onmouseout="mouseoutFn(this,'#00f')">开始
+</div>
+<script>
+    function mouseoverFn(bth, bgColor) {
+        bth.style.background = bgColor;
+    }
+
+    function mouseoutFn(bth, bgColor) {
+        bth.style.background = bgColor;
+    }
+</script>
+</body>
+</html>
