@@ -1,0 +1,36 @@
+[
+  {
+    "description": "这是我们的第一个dome",
+    "request": {
+      "uri": "/get/whit/cookies",
+      "method": "get",
+      "cookies": {
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"这是一个需要携带cookies信息的请求"
+    }
+  },
+  {
+    "description": "这是我们的第一个dome",
+    "request": {
+      "uri": "/post/whit/cookies",
+      "method": "post",
+      "cookies": {
+        "login":"true"
+      },
+      "json":{
+        "name":"huhansan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "huhansan":"success",
+        "status":"1"
+      }
+    }
+  }
+]
