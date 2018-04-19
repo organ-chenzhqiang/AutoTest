@@ -1,4 +1,4 @@
-package demo;
+package com.demo;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
